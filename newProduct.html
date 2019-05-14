@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+	<title>Crear nuevo Producto</title>
+</head>
+<body>
+	<div style="text-align: center">
+	<form method="post" action="">
+
+		<h1>Crear nuevo Producto</h1>
+
+  Nuevo Producto
+  <input id="pro" type="text" name="produ"><br><br>
+  Precio:
+  <input type="text" name="price">
+<br><br>
+  <input type="submit" name="" value="Guardar">
+<br><br>
+  <a href="update.html">Actualizar Producto</a>
+	
+<div>
+  <script type="text/javascript">
+    
+var filter6=/^[A-Za-z\_\-\.\s\xF1\xD1]+$/;
+if (filter6.test(document.getElementById("pro"))){
+alert("Es puro texto")
+}
+else{
+alert("No es texto")
+}
+
+  </script>
+</body>
+</html>
