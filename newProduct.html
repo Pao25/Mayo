@@ -6,17 +6,26 @@
 	<title>Crear nuevo Producto</title>
 </head>
 <body>
-	<div style="text-align: center">
+	<div id="dos" style="text-align: center">
 	<form method="post" action="">
 
 		<h1>Crear nuevo Producto</h1>
 
   Nuevo Producto
-  <input type="text" name="produ"><br><br>
+  <input type="text" name="produ" required pattern="[a-zA-Z]{1,50}">
+  <br>
+  <br>
+
   Precio:
-  <input type="text" name="price">
+  <input type="text" name="price" required pattern="1\s*\.?\d*$">
 <br><br>
-  <input type="submit" name="" value="Guardar">
+  <select required pattern="activo||inactivo">
+    <option></option>
+    <option value="activo">Activo</option>
+    <option value="inactivo">Inactivo</option>
+  </select>
+<br><br>
+<input type="submit" name="" value="Guardar">
 <br><br>
   <a href="update.html">Actualizar Producto</a>
 	
