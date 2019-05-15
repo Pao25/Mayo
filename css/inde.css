@@ -1,4 +1,4 @@
-#new{
+#uno{
 	display: block;
      text-align: center;
      margin-top: 200px;
@@ -11,13 +11,10 @@
      border-radius: 50px;
      background: #f0efef;
      box-shadow: 30px 30px 30px #E38b75;
-
-
 }
 
-.c{
-
-	margin-top: 9px;
+.b{
+    margin-top: 9px;
     font-size: 20px;
   color: #020202;
     background-color: #E38b75;
