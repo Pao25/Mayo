@@ -10,7 +10,7 @@
 
   <div id="new">
 	
-	<form  method="post" action="">
+	<form  method="post" action="insert.php">
 
 
 
@@ -18,19 +18,15 @@
 
   
   
-    <input class="input is-success" type="text" placeholder="Nombre del producto">
+    <input name="produ" type="text" placeholder="Nombre del producto">
 <br>
     <br>
-    <input class="input is-success" type="text" placeholder="precio">
+    <input name="price" type="text" placeholder="precio">
  
   <br>
   <br>
 
-  <select  required pattern="activo||inactivo">
-    <option></option>
-    <option value="activo">Activo</option>
-    <option value="inactivo">Inactivo</option>
-  </select>
+  
 <br><br>
 
 <button class="c" style='text-align: center' onclick=" location.href = 'newProduct.html'">Guardar</button>
