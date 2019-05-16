@@ -7,7 +7,7 @@
 	<?php
 $servername = "localhost";
 $username = "root";
-$password = "12345";
+$password = "1234";
 $dbname = "products";
 
 $product = $_POST["produ"];
